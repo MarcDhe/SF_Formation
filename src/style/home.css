@@ -1,0 +1,21 @@
+.hero-section{
+    background-color: var(--neutral-silver);
+    width: 100%;
+}
+.hero-section__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section__btn{
+
+}
+
+.hero-section__img{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section__text h1 span{
+ color: var(--primary-color);
+}

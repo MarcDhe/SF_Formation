@@ -41,28 +41,33 @@
 h1{
     color: var(--neutral-d-grey);
     font-size: 76px;
-    font-weight:bold;
+    font-weight: 600;
+    line-height: 73px;
 }
 
 h2{
     color: var(--neutral-d-grey);
     font-size: 44px;
-    font-weight:bold;
+    font-weight: 600;
+    line-height: 44px;
 }
 h3{
     color: var(--neutral-d-grey);
     font-size: 36px;
-    font-weight:bold;
+    font-weight: 700;
+    line-height: 36px;
 }
 h4{
     color: var(--neutral-d-grey);
     font-size: 28px;
-    font-weight:bold;
+    font-weight: 600;
+    line-height: 28px;
 }
 p{
     color: var(--neutral-grey);
     font-weight:500;
-    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 @media (min-width: 768px) {
     h1{
@@ -103,7 +108,7 @@ p{
     color: var(--neutral-grey)
 }
 .standard-btn{
-
+    padding: 10px 22px 10px 22px;
 }
 
 .standard-btn--disabled{

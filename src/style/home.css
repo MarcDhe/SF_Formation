@@ -1,7 +1,10 @@
+/* *************** */
+/*  HERO SECITON   */
+/* *************** */
 .hero-section{
     background-color: var(--neutral-silver);
     width: 100%;
-    padding: 70px;
+    padding: 60px;
 }
 .hero-section__text{
     display: flex;
@@ -27,11 +30,69 @@
 }
 .hero-section__text h1 {
     line-height: 73px;
+    margin-bottom: 20px;
 }
 .test{
     display: flex;
 }
 
-@media screen and (max-width: 992px){
-    
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+    .hero-section{
+        padding: 50px 20px 50px 20px;
+
+    }
+}
+
+/* ****************** */
+/*  CLIENTS SECITON   */
+/* ****************** */
+
+.clients-section h2{
+    margin-bottom: 5px;
+}
+.clients-section__subtitle{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.clients-section__logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clients-section__logo{
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--neutral-d-grey);
+    padding: 10px 20px;
+}
+
+/* ******************** */
+/*  COMMUNITY SECITON   */
+/* ******************** */
+
+.commuinity-section__header{
+    margin-top: 15px;
+}
+.commuinity-section article{
+    box-shadow: 0px 1px 2px 0px var(--neutral-l-grey);
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.commuinity-section img{
+    width: 70px;
+}
+
+/* ***************** */
+/*  UNLOCK SECITON   */
+/* ***************** */
+
+.unlock-section__btn{
+    margin-top: 10px;
 }

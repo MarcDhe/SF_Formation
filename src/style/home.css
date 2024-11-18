@@ -1,14 +1,23 @@
+.bg-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--neutral-silver);
+    padding: 30px 40px 30px 40px;
+
+}
+
 /* *************** */
 /*  HERO SECITON   */
 /* *************** */
 .hero-section{
-    background-color: var(--neutral-silver);
-    width: 100%;
-    padding: 60px;
+    padding: 60px 40px 60px 40px;
 }
 .hero-section__text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 .hero-section__subtitle{
     font-size: 11px;
@@ -93,6 +102,75 @@
 /*  UNLOCK SECITON   */
 /* ***************** */
 
+
+.unlock-section__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
 .unlock-section__btn{
     margin-top: 10px;
+}
+
+/* ********************* */
+/*  ACHIVEMENT SECITON   */
+/* ********************* */
+
+.achivement-section{
+    /* display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--neutral-silver);
+    padding: 30px 40px 30px 40px; */
+}
+
+.achivement-section__text span{
+    color: var(--primary-color);
+}
+.achivement-section__stats{
+    gap:5px;
+}
+
+.achivement-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.achivement-card__icon{
+    width: 50px;
+    height: auto;
+}
+.achivement-card__value{
+    color: var(--neutral-d-grey);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+.achivement-card__text{
+    margin: 0;
+    font-size: 18px;
+    color: var(--neutral-grey);
+
+}
+
+/* ********************* */
+/*  ARTICLE BG SECITON   */
+/* ********************* */
+
+
+.article-section img{
+    margin-top:10px;
+}
+.article-section__author{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 25px;
+}
+.article-section__source{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--neutral-l-grey);
+
 }

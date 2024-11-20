@@ -72,6 +72,13 @@ p{
     font-size: 18px;
     font-weight: 400;
 }
+
+a{
+    color: var(--primary-color)
+}
+a:hover{
+    stroke: var(--color-shade-1);
+}
 @media (max-width: 768px) {
     h1{
         font-size: 64px;
@@ -110,8 +117,15 @@ p{
     font-weight: 500;
     border-radius: 3px;
 }
+.standard-btn svg {
+    margin-left: 10px;
+}
 .standard-btn:hover{
     color: var(--neutral-grey)
+}
+
+.standard-btn:hover svg path{
+    stroke: var(--neutral-grey)
 }
 .standard-btn{
     padding: 10px 22px 10px 22px;

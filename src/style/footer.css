@@ -1,0 +1,52 @@
+footer{
+ background-color: var(--neutral-black);
+ padding-top:40px;
+ padding-bottom:40px;
+ width: 100%;
+ color: var(--neutral-white);
+}
+
+footer h3{
+    margin-bottom: 20px;
+}
+
+footer p, footer a, footer h3{
+    color: var(--neutral-white);
+}
+
+.copy-right-footer{
+}
+
+footer img{
+    filter: invert(1);
+}
+
+/* ***************** */
+/* ***  CONTACT  *** */
+/* ***************** */
+
+.contact-footer{
+    align-items: end;
+}
+.contact-footer__phone, .contact-footer__address{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.contact-footer__phone svg, .contact-footer__address svg{
+    margin-right:10px;
+}
+.contact-footer__phone{
+    align-items: center;
+}
+
+/* ***************** */
+/* ***  COMPANY  *** */
+/* ***************** */
+
+.company-footer{
+    height: 100%;
+}
+

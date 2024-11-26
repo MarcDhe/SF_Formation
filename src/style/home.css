@@ -3,10 +3,14 @@
     justify-content: center;
     width: 100%;
     background: var(--neutral-silver);
-    padding: 30px 40px 30px 40px;
+    padding: 60px 60px;
 
 }
 
+section{
+padding-top: 40px;
+padding-bottom: 40px;
+}
 /* *************** */
 /*  HERO SECITON   */
 /* *************** */
@@ -20,9 +24,7 @@
     gap: 10px;
 }
 .hero-section__subtitle{
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
+    text-align: start;
 }
 .hero-section__btn{
     display: flex;

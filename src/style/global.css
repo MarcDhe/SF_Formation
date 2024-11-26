@@ -65,7 +65,7 @@ h4{
     color: var(--neutral-grey);
     text-align: center;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 18px;
 }
 p{
     color: var(--neutral-grey);
@@ -104,7 +104,12 @@ a:hover{
         font-size: 15px;
     
     }
+    /* section{
+        padding-left: 20px;
+        padding-right: 20px;
+    } */
 }
+
 
 /* Component */
 

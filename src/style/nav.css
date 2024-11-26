@@ -112,8 +112,14 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
+header .menu{
+    display: none;
+}
+header .menu-btn:checked + .menu-icon + .menu {
+    display: block;
+  }
   
-  /* 48em = 768px */
+/* 48em = 768px */
   
 @media (min-width: 768px) {
     header li {
@@ -137,6 +143,9 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
         font-size: 2em;
         padding: 10px 0;
         text-decoration: none;
+    }
+    header .menu{
+        display: block;
     }
 }
 

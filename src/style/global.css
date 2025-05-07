@@ -37,6 +37,16 @@
     --font-color: #000 */
     
   }
+section{
+    padding: 60px;
+}
+.bg-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--neutral-silver);
+    padding: 60px 60px;
+}
 
 h1{
     color: var(--neutral-d-grey);
@@ -69,7 +79,7 @@ h4{
 }
 p{
     color: var(--neutral-grey);
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 400;
 }
 
@@ -104,10 +114,9 @@ a:hover{
         font-size: 15px;
     
     }
-    /* section{
-        padding-left: 20px;
-        padding-right: 20px;
-    } */
+    section{
+        padding: 20px;
+    }
 }
 
 
@@ -138,4 +147,55 @@ a:hover{
 
 .standard-btn--disabled{
     
+}
+
+
+/*********************/
+/***TITLE SECTION*****/
+/*********************/
+
+
+.title-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.title-section__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.title-section__subtitle{
+    text-align: start;
+}
+.title-section__btn{
+    display: flex;
+    margin-top: 20px;
+}   
+
+.title-section__img{
+    display: flex;
+    justify-content: center;
+}
+
+.title-section__text h1 span{
+ color: var(--primary-color);
+}
+.title-section__text h1 {
+    line-height: 73px;
+    margin-bottom: 20px;
+}
+.title-section__text p{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+    .title-section{
+        padding: 50px 20px 50px 20px;
+
+    }
 }

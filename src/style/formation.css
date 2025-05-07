@@ -1,0 +1,69 @@
+/************************/
+/** FORMATION DETAIL  **/
+/**********************/
+
+
+.formation-detail{
+
+}
+.formation-detail__head{
+    margin-bottom: 50px;
+}
+
+/***********************/
+/** FORMATION CARDS  **/
+/*********************/
+
+/* FAIRE UN CSS DANS LE THEME */
+.formation-section{
+    min-height: 70vh;
+    margin-top: 60px;
+}
+.formation-section__header{
+    margin-bottom: 60px;
+}
+.formation-details-card{
+    box-shadow: 0px 1px 2px 0px var(--neutral-l-grey);
+    display: flex;
+    flex-direction: column;
+}
+.formation-details-card img{
+
+}
+.formation-details-card__body{
+    padding: 30px 30px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.formation-details-card__items{
+    flex-grow: 1;
+}
+.formation-details-card__items{
+    margin-bottom: 30px;
+}
+.formation-details-card__header{
+    text-align:center;
+    min-height: 80px;
+}
+.formation-details-card__header{
+    flex-grow: 1;
+}
+.formation-details-card__header h3{
+    font-size: 25px;
+}
+.formation-details-card__subtitle{
+    font-weight: 700;
+    color: var(--neutral-grey)
+}
+.formation-details-card__item{
+    display: flex;
+}
+.formation-details-card__item p{
+    text-align: justify;
+    font-weight: 700;
+}
+.formation-details-card__item img{
+    margin-right: 11px;
+}

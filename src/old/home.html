@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="./style/tailwind/output.css" rel="stylesheet"> <!-- Tailwind css -->
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/nav.css"> <!-- REMOVE BEFORE PRODUCTION -->
+    <link rel="stylesheet" href="./style/footer.css"> <!-- REMOVE BEFORE PRODUCTION -->
+
+</head>
+<body>
+    <header class="flex w-full flex-col items-center gap-7">
+        <nav class="navbar container">
+            <a href="#" class="logo">                
+                <img class="h-16 md:h-20" src="./assets/logo.png" alt="logo entreprise" title="s&f formation" />
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="./home.html">Accueil</a></li>
+              <li><a href="./training.html">Nos formations</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main class="flex w-full flex-col items-center gap-7">
+        <!--  -->
+        <!--  -->
+        <section class="hero-section bg-section">
+            <div class="container flex flex-col-reverse md:flex-row  justify-between">
+                <div class="hero-section__text w-full md:w-8/12">
+                    <h1>Lessons and insights <span>from 8 years</span></h1>
+                    <p class="hero-section__subtitle subtitle">Where to grow your business as a photographer: site or social media?</p>
+                    <div class="hero-section__btn" >
+                        <a class="standard-btn" href="#" >Register</a>
+                    </div>
+                </div>
+                <figure class="hero-section__img w-full md:w-4/12">
+                    <img src="./assets/home/Illustration.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                </figure>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="container clients-section">
+            <div class=" flex flex-col items-center">
+                <h2 class="text-center">Our clients</h2>
+                <p class="subtitle">We have been working with some Fortune 500+ clients</p>
+            </div>
+            <div class="clients-section__logos flex flex-col md:flex-row ga">
+                <div class="clients-section__logo">Logo</div>
+                <div class="clients-section__logo">Logo</div>
+                <div class="clients-section__logo">Logo</div>
+                <div class="clients-section__logo">Logo</div>
+                <div class="clients-section__logo">Logo</div>
+                <div class="clients-section__logo">Logo</div>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="container commuinity-section">
+            <div class="commuinity-section__header flex flex-col items-center">
+                <h2 class="text-center">Manage your entire community in a single system</h2>
+                <p class="subtitle">Who is Nextcent suitable for?</p>
+            </div>
+            <div class="commuinity-section__content flex flex-col md:flex-row justify-between gap-4">
+                <article class="flex flex-col items-center gap-2">
+                    <img src="./assets/icons/member.svg" alt="member icon" title="member icon" />
+                    <h3 class="text-center">Membership </br>Organisations</h3>
+                    <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
+                </article>
+                <article class="flex flex-col items-center gap-2">
+                    <img src="./assets/icons/building.svg" alt="member icon" title="member icon" />
+                    <h3 class="text-center">National </br>Associations</h3>
+                    <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
+                </article>
+                <article class="flex flex-col items-center gap-2">
+                    <img src="./assets/icons/hands.svg" alt="member icon" title="member icon" />
+                    <h3 class="text-center">Clubs And  </br>Groups</h3>
+                    <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
+                </article>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="container unlock-section">
+            <div class="flex flex-col md:flex-row gap-5">
+                <figure class="unlock-section__img w-full flex justify-center items-center md:w-4/12">
+                    <img class="w-7/12 md:w-full" src="./assets/home/unlock-illustration.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                </figure>
+                <div class="unlock-section__text w-full md:w-8/12">
+                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                    <div class="unlock-section__btn" >
+                        <a class="standard-btn" href="#" >Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="bg-section achivement-section">
+            <div class="container">
+                <div class="flex flex-col md:flex-row justify-between gap-5">
+                    <div class="achivement-section__text">
+                        <h2>Helping a local </br><span>business reinvent itself</span></h2>
+                        <p>We reached here with our hard work and dedication</p>
+                    </div>
+                    <div class="achivement-section__stats flex flex-wrap">
+                            <div class="achivement-card w-5/12">
+                                <img class="achivement-card__icon " src="./assets/icons/achievement/relations.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                                <div class="">
+                                    <h4 class="achivement-card__value">2,245,341</h4>
+                                    <p class="achivement-card__text">Members</p>
+                                </div>
+                            </div>
+                            <div class="achivement-card w-5/12">
+                                <img class="achivement-card__icon " src="./assets/icons/achievement/hands.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                                <div class="">
+                                    <h4 class="achivement-card__value">46,328</h4>
+                                    <p class="achivement-card__text">Clubs</p>
+                                </div>
+                            </div>
+                            <div class="achivement-card w-5/12">
+                                <img class="achivement-card__icon " src="./assets/icons/achievement/point-finger-at.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                                <div class="">
+                                    <h4 class="achivement-card__value">828,867</h4>
+                                    <p class="achivement-card__text">Event Bookings</p>
+                                </div>
+                            </div>
+                            <div class="achivement-card w-5/12">
+                                <img class="achivement-card__icon " src="./assets/icons/achievement/credit-card.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                                <div class="">
+                                    <h4 class="achivement-card__value">1,926,436</h4>
+                                    <p class="achivement-card__text">Payments</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="container unlock-section">
+            <div class="flex flex-col md:flex-row gap-5">
+                <figure class="unlock-section__img w-full flex justify-center items-center md:w-4/12">
+                    <img class="w-7/12 md:w-full" src="./assets/home/pana.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                </figure>
+                <div class="unlock-section__text w-full md:w-8/12">
+                    <h2>How to design your site footer like we did</h2>
+                    <p class="">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                    <div class="unlock-section__btn" >
+                        <a class="standard-btn" href="#" >Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="bg-section article-section">
+            <div class="container">
+                <article class=" flex flex-row justify-between gap-5">
+                    <img class="w-full md:w-3/12" src="./assets/home/tesla.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                    <div class="w-full md:w-8/12 flex flex-col justify-center gap-2">
+                        <p class="article-section__text">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                        <p class="article-section__author">Tim Smith</p>
+                        <p class="article-section__source">British Dragon Boat Racing Association</p>
+                        <div class="flex flex-col md:flex-row items-start md:items-center md:justify-between">
+                            <div class="flex flex-row gap-1">
+                                <div class="article-section__logo">logo</div>
+                                <div class="article-section__logo">logo</div>
+                                <div class="article-section__logo">logo</div>
+                                <div class="article-section__logo">logo</div>
+                            </div>
+                            <a class="article-section__link" href="#"><span>Meet all customers </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                    <g id="Right">
+                                    <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+           
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="container news-section">
+            <div class="w-full md:w-8/12 mb-4">
+                <h2 class="text-center">Caring is the new marketing</h2>
+                <p class="text-center">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+            </div>
+            <div class="w-full flex flex-col md:flex-row justify-between   gap-4">
+                <article class="news-section__article w-full lg:w-4/12 md:w-5/12"> 
+                    <img class="w-full" src="./assets/home/news/couchoffice.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                    <div class="news-section__content w-11/12">
+                        <h4 class="text-center">Creating Streamlined Safeguarding Processes with OneRen</h4>
+                        <a class="news-section__link" href="#">
+                            <span>Readmore</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                <g id="Right">
+                                <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                </g>
+                            </svg>
+                            </a>
+                    </div>
+                </article>
+                <article class="news-section__article w-full lg:w-4/12 md:w-5/12"> 
+                    <img class="w-full" src="./assets/home/news/office1.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                    <div class="news-section__content w-11/12">
+                        <h4 class="text-center">What are your safeguarding responsibilities and how can you manage them?</h4>
+                        <a class="news-section__link" href="#">
+                            <span>Readmore</span>
+                            <svg xmlns="httLogop://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                <g id="Right">
+                                <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                </g>
+                            </svg>
+                            </a>
+                    </div>
+                </article>
+                <article class="news-section__article w-full lg:w-4/12 md:w-5/12"> 
+                    <img class="w-full" src="./assets/home/news/office2.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                    <div class="news-section__content w-11/12">
+                        <h4 class="text-center">Revamping the Membership Model with Triathlon Australia</h4>
+                        <a class="news-section__link" href="#">
+                            <span>Readmore</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                <g id="Right">
+                                <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                </g>
+                            </svg>
+                            </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <section class="bg-section simple-link-section pb-7">
+            <div class="flex flex-col items-center">
+                <h2 class=" w-full md:w-9/12 text-center mb-6">Pellentesque suscipit fringilla libero eu</h2>
+                <a href="#" class="standard-btn flex items-center">
+                    <span>Get a demo</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                        <g id="Right">
+                        <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="white" stroke-width="0.5008" stroke-linecap="round"/>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+    </main>
+    <!--        -->
+    <!-- FOOTER -->
+    <!--        -->
+    <footer class="flex flex-col justify-center items-center">
+        <div class="container flex flex-col md:flex-row justify-between">
+            <div class="copy-right-footer w-full md:w-4/12 flex flex-col justify-between gap-5">
+                <figure>
+                    <img class="h-20" src="./assets/logo.png" alt="logo entreprise" title="s&f formation" />
+                </figure>
+                <div class="localisation-footer">
+                    <p>Copyright © 2024 Landify UI Kit.</p>
+                    <p>All rights reserved</p>
+                </div>
+                <div class="social-footer flex gap-1">
+                    <div class="social-footer__facebook">logo</div>
+                    <div class="social-footer__facebook">logo</div>
+                    <div class="social-footer__facebook">logo</div>
+                    <div class="social-footer__facebook">logo</div>
+                </div>
+               
+            </div>
+            <div class="company-footer flex flex-col md:w-4/12 gap-5 w-full h-auto items-center">
+                <div>
+                    <h3>Company</h3>
+                    <div class="flex flex-col justify-between gap-5">
+                        <a href="#">Contact us</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">xxxxxxx</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-footer w-full md:w-4/12 flex flex-col items-end">
+                <div>
+                    <h3>Contact</h3>
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <div class="contact-footer__address">
+                                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 16.9999H15M3 14.5999V12.1301C3 10.9814 3 10.407 3.14805 9.87807C3.2792 9.40953 3.49473 8.96886 3.78405 8.57768C4.11067 8.13608 4.56404 7.78346 5.47078 7.07822L8.07078 5.056C9.47608 3.96298 10.1787 3.41648 10.9546 3.2064C11.6392 3.02104 12.3608 3.02104 13.0454 3.2064C13.8213 3.41648 14.5239 3.96299 15.9292 5.056L18.5292 7.07822C19.436 7.78346 19.8893 8.13608 20.2159 8.57768C20.5053 8.96886 20.7208 9.40953 20.8519 9.87807C21 10.407 21 10.9814 21 12.1301V14.5999C21 16.8401 21 17.9603 20.564 18.8159C20.1805 19.5685 19.5686 20.1805 18.816 20.564C17.9603 20.9999 16.8402 20.9999 14.6 20.9999H9.4C7.15979 20.9999 6.03969 20.9999 5.18404 20.564C4.43139 20.1805 3.81947 19.5685 3.43597 18.8159C3 17.9603 3 16.8401 3 14.5999Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div>
+                                    <p>1 rue de l'aubépine - 78000 Versaille</p>
+                                </div>
+                            </div>
+                            <div class="contact-footer__phone">
+                                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>01.01.XX.XX.XX</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="contact-footer__address">
+                                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 16.9999H15M3 14.5999V12.1301C3 10.9814 3 10.407 3.14805 9.87807C3.2792 9.40953 3.49473 8.96886 3.78405 8.57768C4.11067 8.13608 4.56404 7.78346 5.47078 7.07822L8.07078 5.056C9.47608 3.96298 10.1787 3.41648 10.9546 3.2064C11.6392 3.02104 12.3608 3.02104 13.0454 3.2064C13.8213 3.41648 14.5239 3.96299 15.9292 5.056L18.5292 7.07822C19.436 7.78346 19.8893 8.13608 20.2159 8.57768C20.5053 8.96886 20.7208 9.40953 20.8519 9.87807C21 10.407 21 10.9814 21 12.1301V14.5999C21 16.8401 21 17.9603 20.564 18.8159C20.1805 19.5685 19.5686 20.1805 18.816 20.564C17.9603 20.9999 16.8402 20.9999 14.6 20.9999H9.4C7.15979 20.9999 6.03969 20.9999 5.18404 20.564C4.43139 20.1805 3.81947 19.5685 3.43597 18.8159C3 17.9603 3 16.8401 3 14.5999Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div>
+                                    <p>1 rue de l'aubépine - 78000 Versaille</p>
+                                </div>
+                            </div>
+                            <div class="contact-footer__phone">
+                                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>01.01.XX.XX.XX</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

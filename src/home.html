@@ -20,8 +20,8 @@
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-              <li><a href="./home.html">Accueil</a></li>
-              <li><a href="./pricing.html">Nos offres</a></li>
+              <li><a class="nav__selected" href="./home.html">Accueil</a></li>
+              <li><a href="./training.html">Nos formations</a></li>
               <li><a href="./contact.html">Contact</a></li>
             </ul>
           </nav>
@@ -29,224 +29,311 @@
     <main class="flex w-full flex-col items-center gap-7">
         <!--  -->
         <!--  -->
-        <section class="hero-section bg-section">
-            <div class="container flex flex-col-reverse md:flex-row  justify-between">
-                <div class="hero-section__text w-full md:w-8/12">
-                    <h1>Lessons and insights <span>from 8 years</span></h1>
-                    <p class="hero-section__subtitle subtitle">Where to grow your business as a photographer: site or social media?</p>
-                    <div class="hero-section__btn" >
-                        <a class="standard-btn" href="#" >Register</a>
-                    </div>
+        <section class="news-section bg-section">
+            <div class="container  flex flex-col items-center">
+                <div class="w-full md:w-8/12 mb-4">
+                    <h2 class="text-center">Nos formations en intra-entreprise</h2>
                 </div>
-                <figure class="hero-section__img w-full md:w-4/12">
+                <div class="grid gap-4 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-full">
+                    <article class="news-section__article w-full"> 
+                        <img class="w-full" src="./assets/home/training/AIPR.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                        <div class="news-section__content w-11/12">
+                            <h4 class="text-center">AIPR</h4>
+                            <a class="news-section__link" href="#">
+                                <span>En savoir plus</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                    <g id="Right">
+                                    <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                    </g>
+                                </svg>
+                                </a>
+                        </div>
+                    </article>
+                    <article class="news-section__article w-full "> 
+                        <img class="w-full" src="./assets/home/training/HABELEC.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                        <div class="news-section__content w-11/12">
+                            <h4 class="text-center">Habilitation électrique</h4>
+                            <a class="news-section__link" href="#">
+                                <span>En savoir plus</span>
+                                <svg xmlns="httLogop://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                    <g id="Right">
+                                    <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                    </g>
+                                </svg>
+                                </a>
+                        </div>
+                    </article>
+                    <article class="news-section__article w-full"> 
+                        <img class="w-full" src="./assets/home/training/AIC.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                        <div class="news-section__content w-11/12">
+                            <h4 class="text-center">Autorisation de conduite
+                            </h4>
+                            <a class="news-section__link" href="#">
+                                <span>En savoir plus</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
+                                    <g id="Right">
+                                    <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
+                                    </g>
+                                </svg>
+                                </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <section class="title-section">
+            <div class="container flex flex-col-reverse md:flex-row  justify-between">
+                <div class="title-section__text w-full md:w-8/12">
+                    <h1>S&F Formation <br><span>Un organisme à taille humaine, engagé à vos côtés</span></h1>
+                    <!-- <p class="title-section__subtitle subtitle">S&F Formation, c’est un organisme de formation familial et indépendant, loin des centres de formation impersonnels. Notre équipe de formateurs expérimentés et passionnés, issus du terrain, conçoit des formations professionnelles sur mesure, adaptées à vos besoins, à vos objectifs, et surtout à vos horaires.</p>
+                    <p class="title-section__subtitle subtitle">Nous plaçons l’écoute, la disponibilité et la réactivité au cœur de notre pédagogie. Grâce à un accompagnement individualisé, une pédagogie bienveillante et des contenus adaptés, chaque stagiaire bénéficie d’un suivi personnalisé tout au long de son parcours.</p>
+                    <p class="title-section__subtitle subtitle">Avec S&F Formation, choisissez l’excellence pédagogique, dans le respect de vos contraintes et de vos ambitions.</p> -->
+                </div>
+                <figure class="title-section__img w-full md:w-4/12">
                     <img src="./assets/home/Illustration.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
                 </figure>
             </div>
         </section>
         <!--  -->
         <!--  -->
-        <section class="container clients-section">
-            <div class=" flex flex-col items-center">
-                <h2 class="text-center">Our clients</h2>
-                <p class="subtitle">We have been working with some Fortune 500+ clients</p>
-            </div>
-            <div class="clients-section__logos flex flex-col md:flex-row ga">
-                <div class="clients-section__logo">Logo</div>
-                <div class="clients-section__logo">Logo</div>
-                <div class="clients-section__logo">Logo</div>
-                <div class="clients-section__logo">Logo</div>
-                <div class="clients-section__logo">Logo</div>
-                <div class="clients-section__logo">Logo</div>
-            </div>
-        </section>
-        <!--  -->
-        <!--  -->
-        <section class="container commuinity-section">
-            <div class="commuinity-section__header flex flex-col items-center">
-                <h2 class="text-center">Manage your entire community in a single system</h2>
-                <p class="subtitle">Who is Nextcent suitable for?</p>
-            </div>
-            <div class="commuinity-section__content flex flex-col md:flex-row justify-between gap-4">
-                <article class="flex flex-col items-center gap-2">
-                    <img src="./assets/icons/member.svg" alt="member icon" title="member icon" />
-                    <h3 class="text-center">Membership </br>Organisations</h3>
-                    <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
-                </article>
-                <article class="flex flex-col items-center gap-2">
-                    <img src="./assets/icons/building.svg" alt="member icon" title="member icon" />
-                    <h3 class="text-center">National </br>Associations</h3>
-                    <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
-                </article>
-                <article class="flex flex-col items-center gap-2">
-                    <img src="./assets/icons/hands.svg" alt="member icon" title="member icon" />
-                    <h3 class="text-center">Clubs And  </br>Groups</h3>
-                    <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
-                </article>
-            </div>
-        </section>
-        <!--  -->
-        <!--  -->
-        <section class="container unlock-section">
-            <div class="flex flex-col md:flex-row gap-5">
-                <figure class="unlock-section__img w-full flex justify-center items-center md:w-4/12">
-                    <img class="w-7/12 md:w-full" src="./assets/home/unlock-illustration.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                </figure>
-                <div class="unlock-section__text w-full md:w-8/12">
-                    <h2>The unseen of spending three years at Pixelgrade</h2>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                    <div class="unlock-section__btn" >
-                        <a class="standard-btn" href="#" >Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  -->
-        <!--  -->
-        <section class="bg-section achivement-section">
+        <section class="unlock-section bg-section">
             <div class="container">
-                <div class="flex flex-col md:flex-row justify-between gap-5">
-                    <div class="achivement-section__text">
-                        <h2>Helping a local </br><span>business reinvent itself</span></h2>
-                        <p>We reached here with our hard work and dedication</p>
-                    </div>
-                    <div class="achivement-section__stats flex flex-wrap">
-                            <div class="achivement-card w-5/12">
-                                <img class="achivement-card__icon " src="./assets/icons/achievement/relations.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                                <div class="">
-                                    <h4 class="achivement-card__value">2,245,341</h4>
-                                    <p class="achivement-card__text">Members</p>
-                                </div>
-                            </div>
-                            <div class="achivement-card w-5/12">
-                                <img class="achivement-card__icon " src="./assets/icons/achievement/hands.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                                <div class="">
-                                    <h4 class="achivement-card__value">46,328</h4>
-                                    <p class="achivement-card__text">Clubs</p>
-                                </div>
-                            </div>
-                            <div class="achivement-card w-5/12">
-                                <img class="achivement-card__icon " src="./assets/icons/achievement/point-finger-at.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                                <div class="">
-                                    <h4 class="achivement-card__value">828,867</h4>
-                                    <p class="achivement-card__text">Event Bookings</p>
-                                </div>
-                            </div>
-                            <div class="achivement-card w-5/12">
-                                <img class="achivement-card__icon " src="./assets/icons/achievement/credit-card.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                                <div class="">
-                                    <h4 class="achivement-card__value">1,926,436</h4>
-                                    <p class="achivement-card__text">Payments</p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  -->
-        <!--  -->
-        <section class="container unlock-section">
-            <div class="flex flex-col md:flex-row gap-5">
-                <figure class="unlock-section__img w-full flex justify-center items-center md:w-4/12">
-                    <img class="w-7/12 md:w-full" src="./assets/home/pana.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                </figure>
-                <div class="unlock-section__text w-full md:w-8/12">
-                    <h2>How to design your site footer like we did</h2>
-                    <p class="">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
-                    <div class="unlock-section__btn" >
-                        <a class="standard-btn" href="#" >Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  -->
-        <!--  -->
-        <section class="bg-section article-section">
-            <div class="container">
-                <article class=" flex flex-row justify-between gap-5">
-                    <img class="w-full md:w-3/12" src="./assets/home/tesla.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                    <div class="w-full md:w-8/12 flex flex-col justify-center gap-2">
-                        <p class="article-section__text">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
-                        <p class="article-section__author">Tim Smith</p>
-                        <p class="article-section__source">British Dragon Boat Racing Association</p>
-                        <div class="flex flex-col md:flex-row items-start md:items-center md:justify-between">
-                            <div class="flex flex-row gap-1">
-                                <div class="article-section__logo">logo</div>
-                                <div class="article-section__logo">logo</div>
-                                <div class="article-section__logo">logo</div>
-                                <div class="article-section__logo">logo</div>
-                            </div>
-                            <a class="article-section__link" href="#"><span>Meet all customers </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
-                                    <g id="Right">
-                                    <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
-                                    </g>
-                                </svg>
-                            </a>
+                <div class="flex flex-col md:flex-row gap-5">
+                    <figure class="unlock-section__img w-full flex justify-center items-center md:w-4/12">
+                        <img class="w-7/12 md:w-full" src="./assets/home/unlock-illustration.svg" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
+                    </figure>
+                    <div class="unlock-section__text w-full md:w-8/12">
+                        <h2>Mettre un titre</h2>
+                        <p class="">S&F Formation, c’est un organisme de formation familial et indépendant, loin des centres de formation impersonnels. Notre équipe de formateurs expérimentés et passionnés, issus du terrain, conçoit des formations professionnelles sur mesure, adaptées à vos besoins, à vos objectifs, et surtout à vos horaires.</p>
+                        <p class="">Nous plaçons l’écoute, la disponibilité et la réactivité au cœur de notre pédagogie. Grâce à un accompagnement individualisé, une pédagogie bienveillante et des contenus adaptés, chaque stagiaire bénéficie d’un suivi personnalisé tout au long de son parcours.</p>
+                        <p class="">Avec S&F Formation, choisissez l’excellence pédagogique, dans le respect de vos contraintes et de vos ambitions.</p>                    <div class="unlock-section__btn" >
                         </div>
                     </div>
-                </article>
+                </div>
             </div>
-           
         </section>
         <!--  -->
         <!--  -->
-        <section class="container news-section">
-            <div class="w-full md:w-8/12 mb-4">
-                <h2 class="text-center">Caring is the new marketing</h2>
-                <p class="text-center">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+        <!-- <section class="customers-review-section">
+            <div class="container flex flex-col justify-between">
+                <div class="title-section__text w-full md:w-8/12">
+                    <h1>S&F Formation <br><span>Un organisme à taille humaine, engagé à vos côtés</span></h1>
+                </div>
+                <div class="title-section__text w-full md:w-12/12">
+                    <p class="">S&F Formation, c’est un organisme de formation familial et indépendant, loin des centres de formation impersonnels. Notre équipe de formateurs expérimentés et passionnés, issus du terrain, conçoit des formations professionnelles sur mesure, adaptées à vos besoins, à vos objectifs, et surtout à vos horaires.</p>
+                    <p class="">Nous plaçons l’écoute, la disponibilité et la réactivité au cœur de notre pédagogie. Grâce à un accompagnement individualisé, une pédagogie bienveillante et des contenus adaptés, chaque stagiaire bénéficie d’un suivi personnalisé tout au long de son parcours.</p>
+                    <p class="">Avec S&F Formation, choisissez l’excellence pédagogique, dans le respect de vos contraintes et de vos ambitions.</p>
+                </div>
             </div>
-            <div class="w-full flex flex-col md:flex-row justify-between   gap-4">
-                <article class="news-section__article w-full lg:w-4/12 md:w-5/12"> 
-                    <img class="w-full" src="./assets/home/news/couchoffice.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                    <div class="news-section__content w-11/12">
-                        <h4 class="text-center">Creating Streamlined Safeguarding Processes with OneRen</h4>
-                        <a class="news-section__link" href="#">
-                            <span>Readmore</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
-                                <g id="Right">
-                                <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
-                                </g>
-                            </svg>
-                            </a>
-                    </div>
-                </article>
-                <article class="news-section__article w-full lg:w-4/12 md:w-5/12"> 
-                    <img class="w-full" src="./assets/home/news/office1.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                    <div class="news-section__content w-11/12">
-                        <h4 class="text-center">What are your safeguarding responsibilities and how can you manage them?</h4>
-                        <a class="news-section__link" href="#">
-                            <span>Readmore</span>
-                            <svg xmlns="httLogop://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
-                                <g id="Right">
-                                <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
-                                </g>
-                            </svg>
-                            </a>
-                    </div>
-                </article>
-                <article class="news-section__article w-full lg:w-4/12 md:w-5/12"> 
-                    <img class="w-full" src="./assets/home/news/office2.png" alt="TO DO after found PICTURE" title="TO DO after found PICTURE" />
-                    <div class="news-section__content w-11/12">
-                        <h4 class="text-center">Revamping the Membership Model with Triathlon Australia</h4>
-                        <a class="news-section__link" href="#">
-                            <span>Readmore</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
-                                <g id="Right">
-                                <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="#28CB8B" stroke-width="0.5008" stroke-linecap="round"/>
-                                </g>
-                            </svg>
-                            </a>
-                    </div>
-                </article>
+        </section> -->
+        <!--  -->
+        <!--  -->
+        <section class="customers-section">
+            <div class="container flex flex-col items-center">
+                <div class="w-full md:w-8/12 mb-4">
+                    <h2 class="text-center">Avis récents</h2>
+                </div>
+                <div class="grid gap-5 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-full">
+                    <article class="customers-section__review w-full">
+                        <div>
+                            <h4 class="text-center">AIPR</h4>
+                            <div class="customers-section__stars text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="customers-section__text">
+                            <p class="text-center">Formateur à l'écoute, disponible</p>
+                            <p class="customers-section__name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                </svg>
+                                <span>Frederic</span>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="customers-section__review w-full">
+                        <div>
+                            <h4 class="text-center">H0 BO</h4>
+                            <div class="customers-section__stars text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                            </div>       
+                        </div>
+                        <div class="customers-section__text">
+                            <p class="text-center">Il a su répondre à toutes mes questions et m'a aidé à progresser rapidement.</p>
+                            <p class="customers-section__name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                </svg>
+                                <span>José</span>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="customers-section__review  w-full">
+                        <div>
+                            <h4 class="text-center">PEMP</h4>
+                            <div class="customers-section__stars text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                            </div>               
+                        </div>
+                        <div class="customers-section__text">
+                            <p class="text-center">Je suis très satisfaite le formateur a su s'adapter à mes craintes et mes difficultés.</p>
+                            <p class="customers-section__name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                </svg>
+                                <span>Marie</span>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="customers-section__review w-full">
+                        <div>
+                            <h4 class="text-center">AIPR</h4>
+                            <div class="customers-section__stars text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                            </div>              
+                        </div>
+                        <div class="customers-section__text">
+                            <p class="text-center">Le formateur était très compétent et a su rendre le contenu intéressant et accessible.</p>
+                            <p class="customers-section__name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                </svg>
+                                <span>Stéphane</span>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="customers-section__review w-full">
+                        <div>
+                            <h4 class="text-center">Chariot 3</h4>
+                            <div class="customers-section__stars text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                            </div>             
+                        </div>
+                        <div class="customers-section__text">
+                            <p class="text-center">J'ai beaucoup appris et je me sens beaucoup plus à l'aise maintenant.</p>
+                            <p class="customers-section__name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                </svg>
+                                <span>Eric</span>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="customers-section__review w-full">
+                        <div>
+                            <h4 class="text-center">H0 BO BS BE Manoeuvre</h4>
+                            <div class="customers-section__stars text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 16 16" fill="none">
+                                    <g> <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" fill="#000000"/> </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="customers-section__text">
+                            <p class="text-center">Je n'ai pas vu le temps passer, très satisfait de la qualité du programme.</p>
+                            <p class="customers-section__name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                </svg>
+                                <span>Jean Pierre</span>
+                            </p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
         <!--  -->
         <!--  -->
         <section class="bg-section simple-link-section pb-7">
-            <div class="flex flex-col items-center">
-                <h2 class=" w-full md:w-9/12 text-center mb-6">Pellentesque suscipit fringilla libero eu</h2>
-                <a href="#" class="standard-btn flex items-center">
-                    <span>Get a demo</span>
+            <div class="flex w-full flex-col items-center">
+                <h2 class=" w-full md:w-9/12 text-center mb-6">Demandez votre devis</h2>
+                <a href="./contact.html" class="standard-btn flex items-center">
+                    <span>Contact</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 6 4" fill="none">
                         <g id="Right">
                         <path id="Vector" d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676" stroke="white" stroke-width="0.5008" stroke-linecap="round"/>
@@ -258,7 +345,7 @@
         <!--  -->
         <!--  -->
     </main>
-    <!--        -->
+ <!--        -->
     <!-- FOOTER -->
     <!--        -->
     <footer class="flex flex-col justify-center items-center">
@@ -271,13 +358,6 @@
                     <p>Copyright © 2024 Landify UI Kit.</p>
                     <p>All rights reserved</p>
                 </div>
-                <div class="social-footer flex gap-1">
-                    <div class="social-footer__facebook">logo</div>
-                    <div class="social-footer__facebook">logo</div>
-                    <div class="social-footer__facebook">logo</div>
-                    <div class="social-footer__facebook">logo</div>
-                </div>
-               
             </div>
             <div class="company-footer flex flex-col md:w-4/12 gap-5 w-full h-auto items-center">
                 <div>
@@ -291,7 +371,7 @@
             </div>
             <div class="contact-footer w-full md:w-4/12 flex flex-col items-end">
                 <div>
-                    <h3>Contact</h3>
+                    <h3>Contact - 76</h3>
                     <div class="flex flex-col gap-4">
                         <div>
                             <div class="contact-footer__address">
@@ -299,14 +379,20 @@
                                     <path d="M9 16.9999H15M3 14.5999V12.1301C3 10.9814 3 10.407 3.14805 9.87807C3.2792 9.40953 3.49473 8.96886 3.78405 8.57768C4.11067 8.13608 4.56404 7.78346 5.47078 7.07822L8.07078 5.056C9.47608 3.96298 10.1787 3.41648 10.9546 3.2064C11.6392 3.02104 12.3608 3.02104 13.0454 3.2064C13.8213 3.41648 14.5239 3.96299 15.9292 5.056L18.5292 7.07822C19.436 7.78346 19.8893 8.13608 20.2159 8.57768C20.5053 8.96886 20.7208 9.40953 20.8519 9.87807C21 10.407 21 10.9814 21 12.1301V14.5999C21 16.8401 21 17.9603 20.564 18.8159C20.1805 19.5685 19.5686 20.1805 18.816 20.564C17.9603 20.9999 16.8402 20.9999 14.6 20.9999H9.4C7.15979 20.9999 6.03969 20.9999 5.18404 20.564C4.43139 20.1805 3.81947 19.5685 3.43597 18.8159C3 17.9603 3 16.8401 3 14.5999Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 <div>
-                                    <p>1 rue de l'aubépine - 78000 Versaille</p>
+                                    <p>Enghien-les-Bains - 95</p>
                                 </div>
                             </div>
                             <div class="contact-footer__phone">
                                 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <p>01.01.XX.XX.XX</p>
+                                <a href="tel:+33185110053">01 85 11 00 53</a>
+                            </div>
+                            <div class="contact-footer__phone">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M11 18H13M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                    </svg>
+                                <a href="tel:+33658788053">06 58 78 80 53</a>
                             </div>
                         </div>
                         <div>
@@ -315,14 +401,20 @@
                                     <path d="M9 16.9999H15M3 14.5999V12.1301C3 10.9814 3 10.407 3.14805 9.87807C3.2792 9.40953 3.49473 8.96886 3.78405 8.57768C4.11067 8.13608 4.56404 7.78346 5.47078 7.07822L8.07078 5.056C9.47608 3.96298 10.1787 3.41648 10.9546 3.2064C11.6392 3.02104 12.3608 3.02104 13.0454 3.2064C13.8213 3.41648 14.5239 3.96299 15.9292 5.056L18.5292 7.07822C19.436 7.78346 19.8893 8.13608 20.2159 8.57768C20.5053 8.96886 20.7208 9.40953 20.8519 9.87807C21 10.407 21 10.9814 21 12.1301V14.5999C21 16.8401 21 17.9603 20.564 18.8159C20.1805 19.5685 19.5686 20.1805 18.816 20.564C17.9603 20.9999 16.8402 20.9999 14.6 20.9999H9.4C7.15979 20.9999 6.03969 20.9999 5.18404 20.564C4.43139 20.1805 3.81947 19.5685 3.43597 18.8159C3 17.9603 3 16.8401 3 14.5999Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 <div>
-                                    <p>1 rue de l'aubépine - 78000 Versaille</p>
+                                    <p>Rouen - 76</p>
                                 </div>
                             </div>
                             <div class="contact-footer__phone">
                                 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <p>01.01.XX.XX.XX</p>
+                                <a href="tel:+33278776473">02 78 77 64 73</a>
+                            </div>
+                            <div class="contact-footer__phone">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_iconCarrier"> <path d="M11 18H13M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                                    </svg>
+                                <a href="tel:+33749537717">07 49 53 77 17</a>
                             </div>
                         </div>
                         

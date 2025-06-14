@@ -4,6 +4,10 @@ footer{
  padding-bottom:40px;
  width: 100%;
  color: var(--neutral-white);
+ min-height: 350px;
+ display: flex;
+ justify-content: start !important;
+ 
 }
 
 footer h3{
@@ -25,9 +29,7 @@ footer img{
 /* ***  CONTACT  *** */
 /* ***************** */
 
-.contact-footer{
-    align-items: end;
-}
+
 .contact-footer__phone, .contact-footer__address{
     display: flex;
     justify-content: start;
@@ -50,3 +52,21 @@ footer img{
     height: 100%;
 }
 
+@media screen and (min-width: 769px){
+   .company-footer{
+    align-items: end !important;
+    }
+    .contact-footer {
+    align-items: center !important;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    footer{
+        padding: 40px
+    }
+    h3{
+        margin-top: 10px;
+    }
+}

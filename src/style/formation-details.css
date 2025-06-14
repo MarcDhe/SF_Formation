@@ -1,0 +1,32 @@
+.formation-description{
+    margin-bottom: 60px;
+}
+
+.formation-description h2{
+    font-size: var(--standard-description-h2);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.formation-description h3{
+    font-size: var(--standard-description-h3);
+}
+
+.formation-description p{
+    font-size: var(--standard-description-text);
+    color: var(--neutral-black)
+}
+
+.formation-description strong{
+    font-size: var(--standard-description-text);
+    color: var(--color-shade-1);
+}
+
+.formation-description li{
+    font-size: var(--standard-description-text);
+    color: var(--neutral-black)
+}
+
+.formation-description li::marker {
+  color: var(----color-shade-1);
+}

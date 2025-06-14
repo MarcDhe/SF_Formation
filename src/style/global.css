@@ -36,6 +36,14 @@
     --navigation-link-color: #000;
     --font-color: #000 */
     
+    --card-text: 16px;
+    --card-button-subtitle: 15px;
+    --card-title: 25px;
+
+    --standard-description-h2: 24px;
+    --standard-description-h3: 18px;
+    --standard-description-text: 18px;
+
   }
 section{
     padding: 60px;
@@ -50,7 +58,7 @@ section{
 
 h1{
     color: var(--neutral-d-grey);
-    font-size: 76px;
+    font-size: 70px;
     font-weight: 600;
 }
 
@@ -66,7 +74,7 @@ h3{
 }
 h4{
     color: var(--neutral-d-grey);
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
 }
 .subtitle{

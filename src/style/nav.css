@@ -97,7 +97,7 @@ header .menu-btn {
 }
 
 header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 640px;
 }
 
 header .menu-btn:checked ~ .menu-icon .navicon {
@@ -124,7 +124,12 @@ header .menu-btn:checked + .menu-icon + .menu {
   }
   
 /* 48em = 768px */
-  
+@media (max-width: 767px) {
+    .submenu{
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     header li {
         float: left;
@@ -155,3 +160,43 @@ header .menu-btn:checked + .menu-icon + .menu {
 
 
 /* FIN MENU NAV  */
+
+@media (min-width: 768px) {
+
+header .dropdown {
+    position: relative;
+}
+
+/* Submenu - initially hidden */
+header .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 5;
+}
+
+header .submenu li{
+    width: 100%;
+}
+/* Submenu links */
+header .submenu li a {
+    padding: 12px 20px;
+    white-space: nowrap;
+    border-right: none;
+}
+
+/* Show submenu on hover (desktop only) */
+/* @media (min-width: 768px) {
+    header .dropdown:hover .submenu {
+        display: block;
+    }
+} */
+
+    header .dropdown:hover .submenu {
+        display: block;
+    }
+}
+
